@@ -1,0 +1,28 @@
+/*=============== Home page styling =============== */
+#header {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../Assets/imgs/contact-header.jpg");
+    background-size: cover;
+}
+
+.content {
+    height: 35vh;
+}
+
+.post-details {
+    cursor: pointer;
+}
+
+p {
+    text-align: justify;
+}
+
+#custom-btn {
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #ffc107;
+}
+
+.active {
+    background-color: #ffc107 !important;
+}
