@@ -37,9 +37,20 @@ $get_posts_qry_run = mysqli_query($cn, $get_posts);
     <!--Links-->
     <?php include("./includes/links.php") ?>
 
+
+    <style>
+
+
+body{
+
+ background: #f9efefff ;
+
+    }
+        </style>
+
 </head>
 
-<body class="bg-light">
+<body class="">
     <!-- Navbar-->
     <?php include("./includes/navbar.php") ?>
 
